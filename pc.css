@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    position: fixed;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#itens{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    list-style: none;
+}
+
+a:hover{
+    text-shadow: 1px 1px 3px black;
+}
+
+li{padding: 5px;}
+
+#container{
+    width: 100%;
+    display: flex;
+}
+
+#mostrando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(assets/fundo.jfif) no-repeat center/cover; /*não repetir dps botamos no centro e pedimos e encaixar ao maximo nele */
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+
+#mostrando-container{
+    display: flex;
+    padding-right: 30%;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.2rem;
+}
+
+
+#lei{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.titulos{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 40px;
+}
+
+#lei-container{
+    width: 50%;
+    margin: auto;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.item-text{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+#pratica{
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    color: rgb(223, 220, 220);
+}
+
+#cotainer-pratica{
+    width: 50%;
+    margin: auto;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
+
+.item-text2{
+    padding: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: 95%;
+}
+
+#img8020{
+    width: 90%;
+    height: 90%;
+}
+
+#img2{
+    width: 100%;
+}
+
+#direitos{
+    background-color: whitesmoke;
+    padding: 20px;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+}
+
+#kriger{
+    text-decoration: underline;
+    font-weight: bold;
+}
